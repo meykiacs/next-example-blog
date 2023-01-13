@@ -1,7 +1,24 @@
+:root {
+  --background-color: white;
+  --link-color: darkred;
+  --text-color: black;
+}
+
+:root {
+  --background-color: rgb(26, 25, 25);
+  --link-color: rgb(221, 199, 4);
+  --text-color: rgb(228, 228, 228);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
 a {
   text-decoration: none;
-  color: darkred;
+  color: var(--link-color);
 }
 
 a:focus,
