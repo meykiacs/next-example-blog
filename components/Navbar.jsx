@@ -2,6 +2,7 @@ import Link from 'next/link'
 import ThemeSwitch from './ThemeSwitch'
 
 export default function Navbar() {
+  console.log('navbar component called')
   return (
     <nav>
       <ul>

@@ -1,4 +1,5 @@
 export default function DarkTheme() {
+  console.log('darktheme component called')
   return (
     <style jsx global>
       {`

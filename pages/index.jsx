@@ -3,7 +3,7 @@ import Link from "next/link"
 import { getPosts } from "../lib/posts"
 
 export default function HomePage({ posts }) {
-  console.log("render homepage")
+  console.log("render homepage:index.js")
   return (
     <>
       <Head>
